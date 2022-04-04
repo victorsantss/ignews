@@ -3,7 +3,7 @@
 <p align="center">Blog desenvolvido no Ignite de React.js da Rocketseat para aprender Next.js e seus fundamentos, e utilizar funções back-end (serverless) para a comunicação com uma plataforma de pagamentos (Stripe), banco de dados (FaunaDB) e o CMS (Prismic CMS).</p>
 
 <p align="center">
-  <img src="src/assets/demo/demo.gif" alt="animated" />
+  <img src="src/assets/demo.gif" alt="animated" />
 </p>
 
 <h1 align="left">🎯 O projeto </h1>
@@ -52,7 +52,7 @@ $ yarn dev
 
 ### 🔗 Link do projeto online
 
-[dtmoney](https://dtmoney-victor.netlify.app/)
+[ignews](https://ignews-victorsantss.vercel.app/)
 
 <hr />
 
