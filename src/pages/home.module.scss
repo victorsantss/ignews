@@ -1,12 +1,20 @@
 .contentContainer {
   max-width: 1120px;
-  margin: 0 auto;
+  margin: 2rem auto;
   padding: 0 2rem;
   height: calc(100vh - 5rem);
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 710px) {
+    flex-direction: column;
+  
+    > div {
+      width: 100%;
+    }
+  }
 }
 
 .hero {
@@ -41,5 +49,39 @@
 
   button {
     margin-top: 2.5rem;
+  }
+
+  @media (max-width: 1450px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+  @media (max-width: 1000px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+  @media (max-width: 800px) {
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.img {
+  width: 25rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1450px) {
+  .img {
+    width: 20rem;
+    // flex: 1;
+  }
+}
+
+@media (max-width: 1000px) {
+  .img {
+    width: 15rem;
   }
 }
